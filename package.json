@@ -1,0 +1,31 @@
+{
+    "dependencies": {
+        "@types/node": "^15.0.1",
+        "dotenv": "^8.2.0",
+        "fastify": "^3.15.1",
+        "ts-node": "^9.1.1",
+        "ts-node-dev": "^1.1.6",
+        "typescript": "^4.2.4"
+    },
+    "name": "fastify-typescript",
+    "version": "1.0.0",
+    "main": "index.js",
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^4.22.0",
+        "@typescript-eslint/parser": "^4.22.0",
+        "eslint": "^7.25.0",
+        "eslint-config-airbnb-base": "^14.2.1",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-import": "^2.22.1",
+        "prettier": "^2.2.1"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node-dev index.ts",
+        "dev": "ts-node-dev index.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": ""
+}
