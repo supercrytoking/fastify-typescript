@@ -1,10 +1,14 @@
 import fastify from 'fastify'
 import * as dotenv from 'dotenv'
+import {db} from "./config/db"
 
 dotenv.config()
 
 const server = fastify()
 
+db()
+
+server.get('/' , async (request, reply) => 'Hello World')
 server.get('/ping', async (request, reply) => 'pong\n')
 
 server.listen(process.env.PORT, (err, address) => {
